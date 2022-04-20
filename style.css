@@ -1,0 +1,99 @@
+body {
+	font-family: 'Marker Felt', fantasy;
+	font-size: 1rem;
+}
+
+h1 {
+	font-weight: 100;
+	margin: 50px 0 20px;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 450px;
+	text-align: center;
+}
+
+#memeForm {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.form-control {
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#memeForm input[type=text] {
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	display: inline-block;
+	height: 32px;
+	max-width: 396px;
+	width: 100%;
+	padding: 0 10px;
+}
+
+#memeForm button {
+	background-color: #41e1ac;
+	border: 0;
+	border-radius: 3px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 1rem;
+	height: 32px;
+	padding: 0;
+	width: 100%;
+}
+
+#memeForm button:hover {
+	background-color: rgba(65, 225, 204, 0.85);
+}
+
+.meme {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.meme-wrap {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.meme p {
+	color: #ffffff;
+	display: block;
+	font-size: 32px;
+	margin: 0 auto;
+	position: absolute;
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4);
+	width: 100%;
+}
+
+.meme .top-text {
+	top: 15px;
+}
+
+.meme .bottom-text {
+	bottom: 25px;
+}
+
+.meme button {
+	background-color: #41e1ac;
+	border: 0;
+	border-radius: 3px;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 8px 10px;
+}
